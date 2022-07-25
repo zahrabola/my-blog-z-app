@@ -5,6 +5,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
+import { FaInstagram, FaTwitter, FaYoutube, FaTiktok, FaPinterest} from "react-icons/fa";
 import "./navbar.css"
 function navbar() {
   return (
@@ -20,13 +21,33 @@ function navbar() {
             <Navbar.Brand href="#">
               <ul>
                 <li className="iconlink">
-                  <Nav.Link href="#icon1">Home</Nav.Link>
+                  <Nav.Link href="#icon1">
+                    <FaInstagram />
+                  </Nav.Link>
                 </li>
                 <li className="iconlink">
-                  <Nav.Link href="#icon1">Home</Nav.Link>
+                  <Nav.Link href="#icon1">
+                    {" "}
+                    <FaTwitter />
+                  </Nav.Link>
                 </li>
                 <li className="iconlink">
-                  <Nav.Link href="#icon1">Home</Nav.Link>
+                  <Nav.Link href="#icon1">
+                    {" "}
+                    <FaYoutube />
+                  </Nav.Link>
+                </li>
+                <li className="iconlink">
+                  <Nav.Link href="#icon1">
+                    {" "}
+                    <FaTiktok />
+                  </Nav.Link>
+                </li>
+                <li className="iconlink">
+                  <Nav.Link href="#icon1">
+                    {" "}
+                    <FaPinterest />
+                  </Nav.Link>
                 </li>
               </ul>
             </Navbar.Brand>
@@ -37,8 +58,11 @@ function navbar() {
               placement="end"
             >
               <Offcanvas.Header closeButton className="bg-colour-nav">
-                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                  Offcanvas
+                <Offcanvas.Title
+                  className="title-nav"
+                  id={`offcanvasNavbarLabel-expand-${expand}`}
+                >
+                  Zahra Olanrewaju
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
@@ -66,7 +90,9 @@ function navbar() {
                     className="me-2"
                     aria-label="Search"
                   />
-                  <Button variant="outline-success">Search</Button>
+                  <Button className="search-colour" variant="light">
+                    Search
+                  </Button>
                 </Form>
               </Offcanvas.Body>
             </Navbar.Offcanvas>

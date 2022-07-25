@@ -9,3 +9,16 @@
   text-decoration: none;
     float: left;
 }
+.title-nav{
+    color: white;
+}
+.search-colour{
+    background-color: #FF8C00;
+    color: white;
+    border: #FF8C00;
+}
+.search-colour:hover {
+    background-color: white;
+    color: #FF8C00;
+  border: #FF8C00;
+}
