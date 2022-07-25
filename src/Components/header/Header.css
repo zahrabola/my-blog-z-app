@@ -1,4 +1,9 @@
-    .sliderimg-container{
+   
+.Container {
+    padding: 10px;
+}
+   
+   .sliderimg-container{
               display: flex;
     flex-direction: row;
     width: max-content;

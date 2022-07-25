@@ -10,12 +10,12 @@ const Hpage = () => {
   return (
     <Container>
       <Row>
-        <Col xs={12} md={9}>
+        <Col  md={8}>
           Posts
           <Post />
         </Col>
 
-        <Col xs={6} md={3}>
+        <Col  md={4}>
         <Sidebar/>
         </Col>
       </Row>
