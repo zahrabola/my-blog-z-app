@@ -47,6 +47,20 @@
     border: #FF8C00;
     margin-left: 20px;
     margin-bottom: 10px;
-
-
 }      
+.intro {
+   margin-top: 20%;
+   padding: 20px;
+   margin-bottom: 10%;
+}
+.name{
+    font-size: 50px;
+    font-weight: 100;
+    font-style: italic;
+}
+.blogpage{
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 20%;
+    padding-bottom: 10px;
+}
