@@ -4,12 +4,13 @@ import Navbar from "./Components/navbar/Navbar";
 import React from "react";
 import Header from "./Components/header/Header";
 
+
 function App() {
   return (
     <div className="App">
       <div>Zahra Olanrewaju</div>
 <Navbar/>
-<Header />
+<Header/>
 <Hpage />
     </div>
   );
