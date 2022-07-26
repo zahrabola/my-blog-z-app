@@ -11,7 +11,6 @@ const Hpage = () => {
     <Container>
       <Row>
         <Col  md={8}>
-          Posts
           <Posts />
         </Col>
 

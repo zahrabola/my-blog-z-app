@@ -1,5 +1,5 @@
 //import image from "../../Constant/image";
-
+import "./post.css";
 const Post = () => {
   return (
     <div className="post">

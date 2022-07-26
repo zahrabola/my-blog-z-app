@@ -1,0 +1,35 @@
+
+Container
+.postcat{
+      font-weight: 400;
+  font-size: 11px;
+  color: 	#ff8c008b
+  ;
+  line-height: 19px;
+  margin-top: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.posttitle{
+  font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.postdate{
+      font-style: italic;
+  font-size: 13px;
+    opacity: 20%;
+}
+.postdescription{
+  font-size: 14px;
+  line-height: 24px;
+  color: #444444;
+  margin-top: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical; 
+}
