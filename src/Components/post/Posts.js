@@ -3,52 +3,61 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import image from "../../Constant/image";
-import SinglePost from "../singlepost/SinglePost"
-
+import Post from "../colpost/Post"
+import "./posts.css";
 const Posts = () => {
   return (
     <Container>
       <Row>
         <Col>
-          <SinglePost img={image.style1} className="styleimg img-fluid" />
+          <img src={image.style1} className="styleimg row1 img-fluid" />
+          <span className="postCat">Classical Archirecture </span>
+          <Post />
         </Col>
 
         <Col>
-          {" "}
-          <SinglePost img={image.style2} className="styleimg img-fluid" />
+          <img src={image.style2} className="styleimg row1 img-fluid" />
+          <span className="postCat">Gothic Archirecture </span>
+          <Post />
         </Col>
       </Row>
       <Row>
         <Col>
-          {" "}
-          <SinglePost img={image.style3} className="styleimg img-fluid" />
+          <img src={image.style5} className="styleimg  row2 img-fluid" />
+          <span className="postCat">Victorian Archirecture </span>
+          <Post />
         </Col>
 
         <Col>
-          {" "}
-          <SinglePost img={image.style4} className="styleimg img-fluid" />
+          <img src={image.style4} className="styleimg row2  img-fluid" />
+          <span className="postCat">Baroque Archirecture </span>
+          <Post />
         </Col>
       </Row>
       <Row>
         <Col>
-          {" "}
-          <SinglePost img={image.style5} className="styleimg img-fluid" />
+          <img src={image.style3} className="styleimg row3 img-fluid" />
+          <span className="postCat">Neoclassical Archirecture </span>
+          <Post />
         </Col>
 
         <Col>
-          {" "}
-          <SinglePost img={image.style6} className="styleimg img-fluid" />
+          <img src={image.style6} className="styleimg row3 img-fluid" />
+          <span className="postCat">Modern Archirecture </span>
+          <Post />
         </Col>
       </Row>
       <Row>
         <Col>
-          {" "}
-          <SinglePost img={image.style7} className="styleimg img-fluid" />
+          <img src={image.style7} className="styleimg row4 img-fluid" />
+          <span className="postCat">Neofuturist Archirecture </span>
+          <Post />
         </Col>
 
         <Col>
-          {" "}
-          <SinglePost img={image.style8} className="styleimg img-fluid" />
+          <img src={image.style8} className="styleimg row4 img-fluid" />
+          <span className="postCat">Post-Modern Archirecture </span>
+          <Post />
         </Col>
       </Row>
     </Container>
