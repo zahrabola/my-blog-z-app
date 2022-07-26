@@ -13,8 +13,7 @@ import style5 from "../Assets/style-5.jpeg";
 import style6 from "../Assets/style-6.jpeg";
 import style7 from "../Assets/style-7.jpeg";
 import style8 from "../Assets/style-8.jpeg";
-
-
+import single1 from "../Assets/single-1.jpeg";
 
 
 export default {
@@ -33,4 +32,5 @@ export default {
   style6,
   style7,
   style8,
+  single1,
 };

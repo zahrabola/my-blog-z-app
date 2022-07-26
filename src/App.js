@@ -3,7 +3,7 @@ import Hpage from "./Pages/Hpage/Hpage";
 import Navbar from "./Components/navbar/Navbar";
 import React from "react";
 import Header from "./Components/header/Header";
-
+import Single from "./Pages/singlepage/Single";
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
 <Navbar/>
 <Header/>
 <Hpage />
+<Single />
     </div>
   );
 }

@@ -1,0 +1,22 @@
+.Container {
+    padding: 20px;
+}
+
+.spdate{
+       font-style: italic;
+  font-size: 13px;
+    opacity: 20%;
+}
+.SPDescription{
+    text-align: center;
+}
+.SPInfo{
+    padding:5px;
+}
+.SPedit{
+    padding: 5px;
+}
+.singlepost{
+      margin: 20px;
+    padding: 10px;
+}
