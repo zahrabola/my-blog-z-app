@@ -65,9 +65,9 @@ const Sidebar = () => {
             </div>
           </div>
         </div>
-        bola
+   
       </Row>
-      <Row>zahra</Row>
+     
     </Container>
   );
 };

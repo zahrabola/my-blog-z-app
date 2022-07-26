@@ -2,7 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Post from "../../Components/post/Post";
+import Posts from "../../Components/post/Posts";
 import Sidebar from "../../Components/sidebar/Sidebar";
 
 
@@ -12,7 +12,7 @@ const Hpage = () => {
       <Row>
         <Col  md={8}>
           Posts
-          <Post />
+          <Posts />
         </Col>
 
         <Col  md={4}>
