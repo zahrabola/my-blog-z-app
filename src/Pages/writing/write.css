@@ -4,12 +4,25 @@
 
 .writeform { 
  padding-bottom: 5px;
+ 
 }
 .writeinput {
     padding: 10px;
   font-size: 20px;
   width: 65vw;
   margin: 5px;
+
+ 
+    
+}
+
+.writeinput::placeholder {
+  color:#FF8C00;
+  font-weight: 400;
+  border-color: #FF8C00;
+}
+.writeInput:focus {
+  border-color: #FF8C00;
 }
 
 .WFGroup{
@@ -31,4 +44,5 @@
     justify-content: center;
     border: #FF8C00;
      margin-left: 10px;
+       
 }
