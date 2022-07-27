@@ -1,0 +1,45 @@
+.Container {
+    padding: 20px;
+}
+
+
+.SetForm > input {
+  color: gray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+}
+.SetForm > label {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.SetForm {
+  display: flex;
+  flex-direction: column;
+}
+.settingitem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.SetTitle:hover , .SetTitleD:hover {
+   text-decoration: underline;
+   color: #FF8C00;
+   text-underline-offset: 3px;
+}
+.settingsPP {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.settingsPP > img {
+  height: 170px;
+  width: 170px;
+  border-radius: 20px;
+  object-fit: cover;
+}

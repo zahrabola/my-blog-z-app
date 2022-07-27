@@ -1,7 +1,9 @@
 .Container {
     padding: 20px;
 }
-
+.settingitem{
+    padding-top: 20px;
+}
 .spdate{
        font-style: italic;
   font-size: 13px;

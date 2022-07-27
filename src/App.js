@@ -5,6 +5,7 @@ import React from "react";
 import Header from "./Components/header/Header";
 import Single from "./Pages/singlepage/Single";
 import Writing from "./Pages/writing/Writing";
+import Setting from "./Pages/settings/Settings";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
 <Hpage />
 <Single />
 <Writing />
+<Setting />
     </div>
   );
 }
