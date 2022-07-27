@@ -4,6 +4,7 @@ import Navbar from "./Components/navbar/Navbar";
 import React from "react";
 import Header from "./Components/header/Header";
 import Single from "./Pages/singlepage/Single";
+import Writing from "./Pages/writing/Writing";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
 <Header/>
 <Hpage />
 <Single />
+<Writing />
     </div>
   );
 }
