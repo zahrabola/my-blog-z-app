@@ -3,7 +3,8 @@ import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+import { FaSmile } from "react-icons/fa";
+//import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import { FaInstagram, FaTwitter, FaYoutube, FaTiktok, FaPinterest} from "react-icons/fa";
 import "./navbar.css"
@@ -72,6 +73,9 @@ function navbar() {
                   <Nav.Link href="#action3">Contact</Nav.Link>
                   <Nav.Link href="#action4">Write</Nav.Link>
                   <Nav.Link href="#action5">Register</Nav.Link>
+                  <Nav.Link href="#action6 ">
+                    <FaSmile className="smile"/>
+                  </Nav.Link>
                 </Nav>
                 <Form className="d-flex">
                   <Form.Control
