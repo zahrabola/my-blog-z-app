@@ -6,6 +6,7 @@ import Header from "./Components/header/Header";
 import Single from "./Pages/singlepage/Single";
 import Writing from "./Pages/writing/Writing";
 import Setting from "./Pages/settings/Settings";
+import Login from "./Pages/login/Login";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
 <Single />
 <Writing />
 <Setting />
+<Login />
     </div>
   );
 }
