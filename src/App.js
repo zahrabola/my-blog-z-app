@@ -13,6 +13,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Navbar />
+
         <Routes>
           <Route path="/" element={<Hpage />}>
             {" "}
@@ -23,9 +24,8 @@ function App() {
           <Route path="/setting" element={<Setting />}></Route>
           <Route path="/single" element={<Single />}></Route>
         </Routes>
+        <div className="namepage">Zahra Olanrewaju</div>
       </BrowserRouter>
-
-      <div>Zahra Olanrewaju</div>
     </div>
   );
 }

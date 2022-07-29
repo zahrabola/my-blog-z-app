@@ -27,7 +27,7 @@ const Header = () => {
           <div className="intro">
             <h1 className="name"> Zahra Olanrewaju</h1>
 
-            <h1 className="blogpage"> Blog </h1>
+            <h1 className="blogpage">Architecture Blog </h1>
             <p>
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut

@@ -32,3 +32,13 @@
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical; 
 }
+.link2{
+     color: black;
+    text-decoration:none;
+}
+.link2:hover{
+    color: #FF8C00;
+    text-decoration: underline;
+    cursor: pointer;
+     text-underline-offset: 3px;
+}

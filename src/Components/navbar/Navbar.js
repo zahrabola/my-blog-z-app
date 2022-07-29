@@ -61,14 +61,14 @@ function navbar() {
             >
               <Offcanvas.Header closeButton className="bg-colour-nav">
                 <Offcanvas.Title
-                  className="title-nav"
+                  className="title-nav  "
                   id={`offcanvasNavbarLabel-expand-${expand}`}
                 >
                   Zahra Olanrewaju
                 </Offcanvas.Title>
               </Offcanvas.Header>
-              <Offcanvas.Body>
-                <Nav className="justify-content-end flex-grow-1 pe-3">
+              <Offcanvas.Body className="bg-colour-nav">
+                <Nav className="justify-content-end flex-grow-1 pe-3 ">
                   <Nav.Link href="#action1">
                     <Link className="link" to="/">
                       Home

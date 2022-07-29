@@ -1,4 +1,5 @@
 //import image from "../../Constant/image";
+import { Link } from "react-router-dom";
 import "./post.css";
 const Post = () => {
   return (
@@ -6,7 +7,11 @@ const Post = () => {
       <div className="postinfo">
         <span className="postcat">Archirecture Blog</span>
         <hr />
-        <span className="posttitle">Lorem ipsum dolor sit amet</span>
+        <span className="posttitle">
+          <Link className="link2" to="/single">
+            Lorem ipsum dolor sit amet
+          </Link>
+        </span>
         <hr />
         <span className="postdate">1 hour ago</span>
       </div>
