@@ -7,6 +7,7 @@ import Single from "./Pages/singlepage/Single";
 import Writing from "./Pages/writing/Writing";
 import Setting from "./Pages/settings/Settings";
 import Login from "./Pages/login/Login";
+import Register from "./Pages/register/Register";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
 <Writing />
 <Setting />
 <Login />
+<Register />
     </div>
   );
 }

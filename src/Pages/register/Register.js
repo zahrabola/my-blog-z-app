@@ -1,31 +1,33 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import React from "react";
+import "./register.css";
 const Register = () =>{
 
 
     return (
       <Container>
         <Row>
-          <Col md={8}>
+          <Col >
             <div className="register">
-              <div className="SetReg">Update Your Account</div>
-              <form className="RegrForm">
+              <div className="RReg">Update Your Account</div>
+              <form className="RegForm">
                 <label>Username</label>
                 <input
-                  className="registerInput"
+                  className="registerinput"
                   type="text"
                   placeholder="Enter your username..."
                 />
                 <label>Email</label>
                 <input
-                  className="registerInput"
+                  className="registerinput"
                   type="text"
                   placeholder="Enter your email..."
                 />
                 <label>Password</label>
                 <input
-                  className="registerInput"
+                  className="registerinput"
                   type="password"
                   placeholder="Enter your password..."
                 />{" "}
