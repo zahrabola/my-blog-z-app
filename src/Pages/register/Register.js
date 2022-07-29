@@ -9,9 +9,9 @@ const Register = () =>{
     return (
       <Container>
         <Row>
-          <Col >
+          <Col>
             <div className="register">
-              <div className="RReg">Update Your Account</div>
+              <div className="RReg">Register Your Account</div>
               <form className="RegForm">
                 <label>Username</label>
                 <input
@@ -31,10 +31,10 @@ const Register = () =>{
                   type="password"
                   placeholder="Enter your password..."
                 />{" "}
-                <button className="LBtn WSubmit">Login</button>
+                <button className="LBtn WSubmit">Register</button>
               </form>
               <button className="WSubmit RBtn" type="submit">
-                Register
+                Login
               </button>
             </div>
           </Col>

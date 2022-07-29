@@ -25,3 +25,13 @@
 .smile{
     font-size: 30px;
 }
+.link{
+    color: #FF8C00;
+    text-decoration:none;
+}
+.link:hover{
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+     text-underline-offset: 3px;
+}

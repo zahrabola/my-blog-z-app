@@ -56,4 +56,15 @@
   border: none;
   border-radius: 10px;
   text-align: center;
+
+}
+.WSubmit {
+    color: white;
+  background-color:	#FF8C00 ;
+   text-align: center;
+   padding: 7px;
+    justify-content: center;
+    border: #FF8C00;
+     margin-left: 10px;
+       
 }

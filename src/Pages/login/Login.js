@@ -10,7 +10,7 @@ return (
     <Row>
       <Col >
         <div className="login">
-          <div className="loginT">Update Your Account</div>
+          <div className="loginT">Login to Your Account</div>
           <form className="loginform">
             <label>Email:</label>
             <input
