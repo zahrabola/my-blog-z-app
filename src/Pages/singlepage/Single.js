@@ -5,7 +5,6 @@ import Col from "react-bootstrap/Col";
 import SinglePost from "../../Components/singlePost/SinglePost";
 import Sidebar from "../../Components/sidebar/Sidebar";
 
-
 const Single = () => {
   return (
     <Container>
