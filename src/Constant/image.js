@@ -15,8 +15,8 @@ import style7 from "../Assets/style-7.jpeg";
 import style8 from "../Assets/style-8.jpeg";
 import single1 from "../Assets/single-1.jpeg";
 
-
-export default {
+const Allimage = 
+ {
   slide1,
   slide2,
   slide3,
@@ -34,3 +34,4 @@ export default {
   style8,
   single1,
 };
+export default Allimage;
