@@ -10,7 +10,7 @@ const Writing = () => {
     return (
       <Container>
         <div className="singlepost">
-          <img src={image.single1} className="Wimg  img-fluid" />
+          <img src={image.single1} className="Wimg  img-fluid" alt="single1" />
         </div>
 
         <Row className="justify-content-md-center">

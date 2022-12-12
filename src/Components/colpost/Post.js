@@ -8,7 +8,7 @@ const Post = () => {
         <span className="postcat">Archirecture Blog</span>
         <hr />
         <span className="posttitle">
-          <Link className="link2" to="/single">
+          <Link id="RouterNavLink" className="link2" to="/single">
             Lorem ipsum dolor sit amet
           </Link>
         </span>

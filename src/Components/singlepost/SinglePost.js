@@ -12,7 +12,11 @@ const SinglePost = () => {
       <Row>
         <Col>
           <div className="singlepost">
-            <img src={image.single1} className="singleimg  img-fluid" />
+            <img
+              src={image.single1}
+              className="singleimg  img-fluid"
+              alt="single"
+            />
           </div>
         </Col>
       </Row>

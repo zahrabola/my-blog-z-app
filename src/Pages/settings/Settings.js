@@ -21,7 +21,11 @@ const Setting = () => {
               <form className="SetForm">
                 <label>Profile Picture</label>
                 <div className="settingsPP">
-                  <img src={image.woman} className="womanimg img-fluid" />
+                  <img
+                    src={image.woman}
+                    className="womanimg img-fluid"
+                    alt="woman"
+                  />
                 </div>
                 <label htmlFor="file-nput">
                   <i className="iconlink" href="#icon1">

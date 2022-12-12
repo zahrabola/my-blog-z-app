@@ -4,7 +4,7 @@ import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { FaSmile } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link,  } from "react-router-dom";
 //import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import { FaInstagram, FaTwitter, FaYoutube, FaTiktok, FaPinterest} from "react-icons/fa";
@@ -23,13 +23,12 @@ function navbar() {
             <Navbar.Brand href="#">
               <ul>
                 <li className="iconlink">
-                  <Nav.Link href="#icon1">
+                  <Nav.Link href="#icon1" id="RouterNavLink">
                     <FaInstagram />
                   </Nav.Link>
                 </li>
                 <li className="iconlink">
                   <Nav.Link href="#icon1">
-                    {" "}
                     <FaTwitter />
                   </Nav.Link>
                 </li>
@@ -70,27 +69,27 @@ function navbar() {
               <Offcanvas.Body className="bg-colour-nav">
                 <Nav className="justify-content-end flex-grow-1 pe-3 ">
                   <Nav.Link href="#action1">
-                    <Link className="link" to="/">
+                    <Link id="RouterNavLink" className="link" to="/">
                       Home
                     </Link>
                   </Nav.Link>
                   <Nav.Link href="#action2">
-                    <Link className="link" to="/">
+                    <Link id="RouterNavLink" className="link" to="/">
                       About
                     </Link>
                   </Nav.Link>
                   <Nav.Link href="#action3">
-                    <Link className="link" to="/">
+                    <Link id="RouterNavLink" className="link" to="/">
                       Contact
                     </Link>{" "}
                   </Nav.Link>
                   <Nav.Link href="#action4">
-                    <Link className="link" to="/write">
+                    <Link id="RouterNavLink" className="link" to="/write">
                       Write
                     </Link>
                   </Nav.Link>
                   <Nav.Link href="#action5">
-                    <Link className="link" to="/login">
+                    <Link id="RouterNavLink" className="link" to="/login">
                       Login
                     </Link>
                   </Nav.Link>

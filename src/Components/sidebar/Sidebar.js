@@ -20,7 +20,11 @@ const Sidebar = () => {
           <div className="SBItem">
             <div className="SBTitle">About Me:</div>
             <p className="name2"> Zahra Olanrewaju</p>
-            <img src={image.woman} className="womanimg img-fluid" />
+            <img
+              src={image.woman}
+              className="womanimg img-fluid"
+              alt="woman"
+            />
             <div className="SBText">
               <p>
                 Laboris sunt aute cupidatat velit magna <br /> velit ullamco
@@ -46,7 +50,6 @@ const Sidebar = () => {
           <div className="SBItem">
             <div className="SBTitle">Follow Us</div>
             <div className="SBsicon">
-                
               <i className="iconlink" href="#icon1">
                 <FaInstagram />
               </i>
@@ -65,9 +68,7 @@ const Sidebar = () => {
             </div>
           </div>
         </div>
-   
       </Row>
-     
     </Container>
   );
 };
